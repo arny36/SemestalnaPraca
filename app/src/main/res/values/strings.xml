@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SemestalnaPraca</string>
+    <string-array name="huby">
+        <item>Hríb dubový</item>
+        <item>Suchohríb</item>
+        <item>Modrák</item>
+        <item>Muchotrávka zelená</item>
+        <item>Horčák</item>
+        <item>Muchotrávka červená</item>
+        <item>Muchotrávka tigrovaná</item>
+        <item>Masliak</item>
+        <item>Hrib brezový</item>
+        <item>Šampion</item>
+        <item>Prašivka</item>
+        <item>Pavučinovec</item>
+        <item>Smrčok</item>
+
+
+    </string-array>
+
+
+    <string-array name="popisy">
+        <item>Jedla a chutná huba</item>
+        <item>Jedla a chutná huba</item>
+        <item>Jedla a chutná huba</item>
+        <item>Veľmi jedovatá huba</item>
+        <item>Jedla, nie moc chutná huba</item>
+        <item>Jedovatá huba</item>
+        <item>Jedovatá huba</item>
+        <item>Jedla a chutná huba</item>
+        <item>Jedla a chutná huba</item>
+        <item>Jedla a chutná huba</item>
+        <item>Jedovatá huba</item>
+        <item>Nejedlá huba</item>
+        <item>Jedlá huba</item>
+    </string-array>
+    <string name="title_activity_mapa">Map</string>
+
+</resources>

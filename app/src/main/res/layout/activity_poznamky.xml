@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poznamky">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/poznamkaTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <EditText
+            android:id="@+id/nadpisET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sem zadaj nadpis..."
+            android:padding="10dp"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/poznamkyET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="top"
+            android:layout_weight="1"
+            android:hint="Sem napíš poznámku..."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/poznamkaBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/okruhly_button"
+            android:text="Vytvoriť poznámku"
+            android:textColor="@color/cierna" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

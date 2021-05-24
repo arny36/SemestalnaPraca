@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312238061758",
+    "project_id": "mini-appky",
+    "storage_bucket": "mini-appky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312238061758:android:8eeb1383a8e3e18e94c6ef",
+        "android_client_info": {
+          "package_name": "com.example.semestalnapraca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312238061758-9ar3uvts55v78lg0m64m4geccap7nnc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTDxeBCdora6_UfSHmZ1PCTEtcViA38JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312238061758-9ar3uvts55v78lg0m64m4geccap7nnc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

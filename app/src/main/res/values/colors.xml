@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#D6555E</color>
+    <color name="white">#fff</color>
+    <color name="slabo_hneda">#B29978</color>
+    <color name="silno_modra">#161669</color>
+    <color name="cierna">#000404</color>
+    <color name="round_gradient_button_start_color">#E4F13D</color>
+    <color name="round_gradient_button_end_color">#F1AD3D</color>
+    <color name="round_gradient_button_start_color1">#72DBEE</color>
+    <color name="round_gradient_button_end_color1">#655CBB</color>
+    <color name="sivaSlaba">#D3D3D3</color>
+    <color name="round_gradient_button_start_color2">#020106</color>
+    <color name="round_gradient_button_end_color2">#420B14</color>
+   <color name="sivaSlaba2">#DAA520</color>
+</resources>
