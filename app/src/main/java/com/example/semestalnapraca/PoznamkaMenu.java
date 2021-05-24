@@ -22,10 +22,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 import java.util.Map;
+
 /*
-* Tato trieda sluzi na vypis všetky predmetov a vymazanie ich
-* Funkcne je vytvaranie poznamok pomocou + hore vpravo
-* */
+ * Tato trieda sluzi na vypis všetky predmetov a vymazanie ich
+ * Funkcne je vytvaranie poznamok pomocou + hore vpravo
+ *
+ * */
 public class PoznamkaMenu extends AppCompatActivity {
     private DatabaseReference fNotesDatabase;
     private FirebaseDatabase database;
@@ -38,6 +40,8 @@ public class PoznamkaMenu extends AppCompatActivity {
 
 
     private RecyclerView listPoznamok;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

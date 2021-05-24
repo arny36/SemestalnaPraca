@@ -12,8 +12,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 /**
- *Trieda nam sluzi na vytváranie menu  prechodná trieda cez ktoru si otvaram miniaplikacie
- * Medzi triedy ktore otvaram patri kalkulacka, hubarska prirucka a pocasie
+ *Trieda nam sluzi na vytvaranie menu  prechodna trieda cez ktoru si otvaram miniaplikacie
+ * Medzi triedy ktore otvaram patri kalkulacka, hubarska prirucka pocasie mapa a poznamky
  */
 public class Menu extends AppCompatActivity {
 
@@ -123,10 +123,10 @@ public class Menu extends AppCompatActivity {
     }
 
     /**
-     *Metóda ktorá nastaví každému notifikáciu podla mapametrov.
+     *Metoda ktora nastavi každému notifikaciu podla mapametrov
      * kde nazov je Premenna
-     * nazovTitle je názov ako chceme notifikáciu volat
-     * text je text ktorý sa vypíše
+     * nazovTitle je nazov ako chceme notifikaciu volat
+     * text je text ktory sa vypise
      */
     public void createNotificationChannel(String nazov, String nazovTitle , String text) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

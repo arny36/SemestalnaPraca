@@ -12,8 +12,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.semestalnapraca.databinding.ActivityMapaBinding;
 /**
- *Mapa je klasická google mapa. Musel som ju implementovať z googlu pomocou kľúča.
- *
+ *Mapa je klasicka google mapa
+ *Musel som ju implementovat z googlu pomocou kluca
  */
 public class Mapa extends FragmentActivity implements OnMapReadyCallback {
 
@@ -34,8 +34,8 @@ public class Mapa extends FragmentActivity implements OnMapReadyCallback {
     }
 
     /**
-     * Pomocou parametra v zilina som nastavil že mobil sa bude nachádzať v Žiline na námesti
-     * Po  otvoreni mapy budete mať červenú šípku na mape kde sa nachádzame
+     * Pomocou parametra v zilina som nastavil ze mobil sa bude nachadzat v Ziline na namesti
+     * Po  otvoreni mapy budete mat cervenu sipku na mape kde sa nachadzame
      */
 
 
