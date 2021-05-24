@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
      *              defaultne su student ako  meno a 1111 ako heslo
      */
     private void kontrola(String meno, String heslo) {
-        if (meno.equals("") && heslo.equals("")) {
+        if (meno.equals("Admin") && heslo.equals("")) {
             Intent intent = new Intent(this, Menu.class);
             startActivity(intent);
         } else {
